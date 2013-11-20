@@ -7,19 +7,19 @@ msgstr ""
 "Project-Id-Version: django-shop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-13 07:39-0600\n"
-"PO-Revision-Date: 2011-07-13 16:16+0000\n"
+"PO-Revision-Date: 2013-11-20 17:40+0100\n"
 "Last-Translator: chrisglass <tribaal@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: forms.py:27
-#, fuzzy
 msgid "Shipping method"
-msgstr "Lieferadresse"
+msgstr "Versandart"
 
 #: forms.py:28 models/ordermodel.py:99
 msgid "Payment method"
@@ -214,9 +214,8 @@ msgid "Processing"
 msgstr "In Bearbeitung"
 
 #: models_bases/__init__.py:326
-#, fuzzy
 msgid "Confirming"
-msgstr "Bestätigt"
+msgstr "Wird bestätigt"
 
 #: models_bases/__init__.py:327
 msgid "Confirmed"
@@ -268,7 +267,7 @@ msgstr "Aktualisiert"
 
 #: models_bases/__init__.py:348
 msgid "Cart primary key"
-msgstr ""
+msgstr "Primärschlüssel Warenkorb"
 
 #: models_bases/__init__.py:357
 #, python-format
@@ -299,11 +298,11 @@ msgstr "Gesamtsumme"
 
 #: payment/backends/pay_on_delivery.py:11
 msgid "Pay On Delivery"
-msgstr ""
+msgstr "Per Nachname"
 
 #: shipping/backends/flat_rate.py:20
 msgid "Flat rate"
-msgstr ""
+msgstr "Pauschal"
 
 #: templates/shop/cart.html:5
 msgid "Your shopping cart"
